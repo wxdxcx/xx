@@ -7,4 +7,4 @@ sudo chmod -R 755 /opt/www
 sudo rm -rf /opt/dep/web/build.tar.gz
 echo "web is ok"
 
-# sudo pm2 reload ecosystem.config.js
+sudo pm2 reload ecosystem.config.cjs
