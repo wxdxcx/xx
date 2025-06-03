@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /opt/dep/api
+
+sudo tar -zxvf /opt/dep/api/app.tar.gz -C /opt/www/api
+sudo chown -R wdc:www-data /opt/www
+sudo chmod -R 755 /opt/www
+sudo chmod +x /opt/www/api/bin/app
