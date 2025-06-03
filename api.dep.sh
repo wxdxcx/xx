@@ -6,3 +6,4 @@ sudo chown -R wdc:www-data /opt/www
 sudo chmod -R 755 /opt/www
 sudo chmod +x /opt/www/api/bin/app
 sudo systemctl restart wdc-api.service
+sudo systemctl restart wdc-admin.service
